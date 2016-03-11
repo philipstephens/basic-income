@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^basicincome
+RewriteRule ^(.*)$ basicincome/$1 [L]
